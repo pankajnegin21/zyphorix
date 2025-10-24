@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZYPHORIX | Home</title>
+  <!-- Google Fonts CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+  <!-- Apni style.css file yahan link karo -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="neo-navbar">
+    <span class="neo-brand">ZYPHORIX</span>
+    <ul class="neo-nav-right">
+      <li><a href="Home.html">HOME</a></li>
+      <li><a href="tournament.html">TOURNAMENT</a></li>
+      <li><a href="results.html">RESULTS</a></li>
+      <li><a href="cards.html">CARDS</a></li>
+      <li><a href="profile.html">PROFILE</a></li>
+      <li><a href="leaderboard.html">LEADERBOARD</a></li>
+      <li><a href="Events.html">EVENTS</a></li>
+      <li><a href="Terms &Privacy.html">TERMS & PRIVACY</a></li>
+     <li><a href="About Us.html" class="nav-action" target="_blank">ABOUT US</a></li>
+
+    </ul>
+  </nav>
+<section class="zyphorix-tournament-hero">
+  <div class="tourney-left-anim">
+    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=400&q=80" alt="Zyphorix Tournament" class="tourney-hero-img"/>
+  </div>
+  <div class="tourney-right-content">
+    <h1 class="tourney-main-title">GRAND ZYPHORIX<br><span>TOURNAMENT 2025</span></h1>
+    <p class="tourney-desc">Join the ultimate TCG showdown! Face off against hundreds of players, climb the brackets, and win exclusive legendary cards, cash prizes, and event merch.<br>
+      <span class="tourney-highlight">Dates: 12-15 NOV 2025 | Entry: Free | Format: Standard Battle</span>
+    </p>
+    <div class="tourney-btn-row">
+      <a href="#register" class="tourney-cta-btn animate-bounce">Register Now</a>
+      <a href="#bracket" class="tourney-bracket-btn">View Bracket</a>
+    </div>
+    <div class="tourney-ticker-anim">
+      <span>🔥 Special Prize: <b>₹5,000 + Legendary Card</b> ⚡</span>
+    </div>
+  </div>
+</section>
+
+<section class="zyphorix-tourney-facts">
+  <div class="tourney-fact-box animate-float">
+    <img src="https://cdn-icons-png.flaticon.com/128/3602/3602123.png" alt="Participants"/>
+    <b>224+</b>
+    <span>Players Joined</span>
+  </div>
+  <div class="tourney-fact-box animate-float-delay">
+    <img src="https://cdn-icons-png.flaticon.com/128/857/857681.png" alt="Rewards"/>
+    <b>₹5,000+</b>
+    <span>Cash & Rewards</span>
+  </div>
+  <div class="tourney-fact-box animate-float2">
+    <img src="https://cdn-icons-png.flaticon.com/128/616/616489.png" alt="Legendary Card"/>
+    <b>3</b>
+    <span>Legendary Cards</span>
+  </div>
+  <div class="tourney-fact-box animate-float-delay2">
+    <img src="https://cdn-icons-png.flaticon.com/128/1450/1450335.png" alt="Countries"/>
+    <b>8</b>
+    <span>Countries</span>
+  </div>
+</section>
+
+</div>
+<script>
+let c = 765; // seconds
+setInterval(()=>{if(c>=0){let m=Math.floor(c/60),s=c%60;document.getElementById('countdown').textContent=`${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;c--;}},1000);
+</script>
+<div class="tourney-rules-row">
+  <a href="https://docs.google.com/document/d/YOUR-DOC-ID-HERE/view" target="_blank" class="rules-btn">
+    📜 Show Tournament Rules
+  </a>
+</div>
