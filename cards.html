@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZYPHORIX | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="neo-navbar">
+    <span class="neo-brand">ZYPHORIX</span>
+    <ul class="neo-nav-right">
+      <li><a href="Home.html">HOME</a></li>
+      <li><a href="tournament.html">TOURNAMENT</a></li>
+
+      <li><a href="cards.html">CARDS</a></li>
+
+      <li><a href="leaderboard.html">LEADERBOARD</a></li>
+      <li><a href="Events.html">EVENTS</a></li>
+      <li><a href="Terms &Privacy.html">TERMS & PRIVACY</a></li>
+      <li><a href="About Us.html" class="nav-action">ABOUT US</a></li>
+    </ul>
+  </nav><section class="zyphorix-ticker-section">
+  <div class="ticker-bg">
+    <span class="ticker-item">🔥 Next Tournament Registration Opens Friday — Join Fast! 🔥</span>
+    <span class="ticker-item">New Season Pass available now — earn exclusive cards.</span>
+    <span class="ticker-item">Community Discord Reward Drop: Wednesday, 7 PM.</span>
+    <span class="ticker-item">Patch Notes: Card balancing update live!</span>
+  </div>
+</section>
+   <!-- HERO -->
+  <section class="gallery-hero-section">
+    <h1 class="gallery-hero-title">CARD COLLECTION</h1>
+    <p class="gallery-hero-desc">Discover powerful TCG cards!</p>
+  </section>
+
+  <!-- FILTER -->
+  <section class="gallery-filter-section">
+    <div class="filter-tabs">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="common">Common</button>
+      <button class="filter-btn" data-filter="uncommon">Uncommon</button>
+      <button class="filter-btn" data-filter="rare">Rare</button>
+      <button class="filter-btn" data-filter="limited">Limited</button>
+      <button class="filter-btn" data-filter="mythic">Mythic</button>
+      <button class="filter-btn" data-filter="new">New</button>
+    </div>
+  </section>
+  
+  <!-- CARD GRID -->
+  <section class="gallery-card-grid">
+    <!-- CARD 1 -->
+    <div class="tcg-card" data-rarity="mythic" onclick="showCard('ZYPHORIX-COPY.jpg')">
+      <div class="card-rarity-badge mythic-badge">MYTHIC</div>
+      <img src="ZYPHORIX-COPY.jpg" alt="FrostRix Card" class="card-image">
+      <div class="card-info">
+        <h3 class="card-name">Aurora FrostRix</h3>
+        <p class="card-stats">ATK: 42 | DEF: 48 | SPD: 36</p>
+        <p class="card-type">Earth | Beast</p>
+      </div>
+    </div>
+    <!-- CARD 2 -->
+    <div class="tcg-card" data-rarity="limited" onclick="showCard('https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=700&h=900&fit=crop')">
+      <div class="card-rarity-badge limited-badge">LIMITED</div>
+      <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=300&h=400&fit=crop" alt="Frost Enchantress" class="card-image">
+      <div class="card-info">
+        <h3 class="card-name">Frost Enchantress</h3>
+        <p class="card-stats">ATK: 70 | DEF: 85 | SPD: 60</p>
+        <p class="card-type">Ice | Spell Caster</p>
+      </div>
+    </div>
+    <!-- CARD 3 -->
+    <div class="tcg-card" data-rarity="rare" onclick="showCard('https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=600&h=800&fit=crop')">
+      <div class="card-rarity-badge rare-badge">RARE</div>
+      <img src="https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=300&h=400&fit=crop" alt="Shadow Blade" class="card-image">
+      <div class="card-info">
+        <h3 class="card-name">Shadow Blade</h3>
+        <p class="card-stats">ATK: 88 | DEF: 55 | SPD: 92</p>
+        <p class="card-type">Dark | Rogue</p>
+      </div>
+    </div>
+    <!-- CARD 4 -->
+    <div class="tcg-card" data-rarity="common" onclick="showCard('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300&h=400&fit=crop')">
+      <div class="card-rarity-badge common-badge">COMMON</div>
+      <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300&h=400&fit=crop" alt="Forest Guardian" class="card-image">
+      <div class="card-info">
+        <h3 class="card-name">Forest Guardian</h3>
+        <p class="card-stats">ATK: 60 | DEF: 70 | SPD: 50</p>
+        <p class="card-type">Nature | Tank</p>
+      </div>
+    </div>
+    <!-- CARD 5 -->
+    <div class="tcg-card" data-rarity="mythic" onclick="showCard('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop')">
+      <div class="card-rarity-badge mythic-badge">MYTHIC</div>
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop" alt="Thunder God" class="card-image">
+      <div class="card-info">
+        <h3 class="card-name">Thunder God</h3>
+        <p class="card-stats">ATK: 100 | DEF: 75 | SPD: 85</p>
+        <p class="card-type">Lightning | Deity</p>
+      </div>
+    </div>
+    <!-- CARD 6 -->
+    <div class="tcg-card" data-rarity="rare" onclick="showCard('https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=400&fit=crop')">
+      <div class="card-rarity-badge rare-badge">RARE</div>
+      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=400&fit=crop" alt="Phoenix Warrior" class="card-image">
+      <div class="card-info">
+        <h3 class="card-name">Phoenix Warrior</h3>
+        <p class="card-stats">ATK: 82 | DEF: 68 | SPD: 78</p>
+        <p class="card-type">Fire | Warrior</p>
+      </div>
+    </div>
+    <!-- CARD 7 -->
+    <div class="tcg-card" data-rarity="new" onclick="showCard('https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=300&h=400&fit=crop')">
+      <div class="card-rarity-badge new-badge">NEW</div>
+      <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=300&h=400&fit=crop" alt="Venom Cobra" class="card-image">
+      <div class="card-info">
+        <h3 class="card-name">Venom Cobra</h3>
+        <p class="card-stats">ATK: 67 | DEF: 49 | SPD: 77</p>
+        <p class="card-type">Poison | Striker</p>
+      </div>
+    </div>
+    <!-- CARD 8 -->
+    <div class="tcg-card" data-rarity="uncommon" onclick="showCard('https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300&h=400&fit=crop')">
+      <div class="card-rarity-badge uncommon-badge">UNCOMMON</div>
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300&h=400&fit=crop" alt="Lava Rhino" class="card-image">
+      <div class="card-info">
+        <h3 class="card-name">Lava Rhino</h3>
+        <p class="card-stats">ATK: 78 | DEF: 72 | SPD: 67</p>
+        <p class="card-type">Fire | Beast</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL POPUP -->
+  <div id="cardModal" class="card-modal" onclick="closeCardModal()">
+    <span class="modal-close">&times;</span>
+    <img id="modalCardImage" src="" alt="Full Card" class="modal-card-image">
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
+
+<section class="zyphorix-live-counter">
+  <div class="counter-card">
+    <span class="live-number" id="livePlayers">0</span>
+    <span class="counter-label">Players Online Now</span>
+  </div>
+  <div class="counter-card">
+    <span class="live-number" id="liveCards">0</span>
+    <span class="counter-label">Cards Collected Today</span>
+  </div>
+  <div class="counter-card">
+    <span class="live-number" id="liveWins">0</span>
+    <span class="counter-label">Live Battles Running</span>
+  </div>
+</section>
+<section class="zyphorix-announce-section">
+  <div class="pulse-announcement">
+    🚨 NEW: Season 2 Launch Event next week! Win mythic cards, rare avatars, and leaderboard badges. 🚨
+  </div>
+</section>
